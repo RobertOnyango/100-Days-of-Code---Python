@@ -38,7 +38,9 @@ resources = {
 
 # Function that takes in resources used and user input to print report
 def print_report():
+    # Call global PROFIT variable to have access to it
     global PROFIT
+    # Add the 'money' key to the machine resources dictionary with global PROFIT as its value
     resources["money"] = PROFIT
     for key in resources:
         print(f"{key.capitalize()}: {resources[key]}")
@@ -69,9 +71,11 @@ def process_coins():
 def transaction_successfull(order_cost, amount_paid):
     global PROFIT
     if amount_paid >= order_cost:
-        # Return change
+        # Return change, round to 2 decimal places
         change = round(amount_paid - order_cost, 2)
-        print(f"Here is ${change} in change")
+        # Confirm that indeed there is change to be sent to the customer
+        if change > 0:
+            print(f"Here is ${change} in change")
         # Add money to as profit to the machine resources
         PROFIT += order_cost
         return True
@@ -116,7 +120,7 @@ while machine_on:
             print(coins_inserted)
             # TODO 6: Check transaction successful? i.e. Enough money inserted for the drink? If no, refund the money. If yes, cost of drink added to machine and should reflect on "report" prompt. Machine should also offer change (transaction_processor function)
             if transaction_successfull(order_cost=cost, amount_paid=coins_inserted):
-                # TODO 7: Make coffee
+                # TODO 7: Make coffee: Reduce the resources count for each ingredient as used
                 make_drink(order_name=user_input, order_ingredients=drink["ingredients"])
 
 
