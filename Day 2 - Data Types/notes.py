@@ -4,7 +4,7 @@
 len("Hello")
 
 #Subscripting: Pull single character from string
-print("Hello"[1]) #H
+print("Hello"[1]) #e
 
 #Get the last character from the string
 print("Hello"[-1]) #o
