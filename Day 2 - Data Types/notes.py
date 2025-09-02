@@ -43,18 +43,27 @@ int("123") #int() convert the string "123" to an integer
 print(int("123") + int("456")) #579
 #ValueError: You can't convert some input e.g. int("abc") will bring an error
 
+#You can also convert using the following functions:
+# int()
+# float()
+# str()
+# bool()
+
 user_name = input("Enter your name") #<class 'str'>
 length_of_name = len(user_name) #<class 'int'>
 
 print("Number of letters in your name: " + str(length_of_name))
+
+#OR
+print("Number of letters in your name is: " + str(len(input("What is your name?"))))
 
 #********** MATHEMATICAL OPERATIONS **********#
 print("My age: " + str(12))
 print(123 + 456)
 print(7 - 3)
 print(3 * 2)
-print(6 / 3) #Result is always Float: Python implicit Type casting
-print(6 // 3) #Result is always an Integer
+print(6 / 3) #Result is always a Float: (Implicit Type casting)
+print(6 // 3) #Result is always an Integer: Different type of division operator that removes the decimal places from the result
 print(5 // 3) #Answer is 1.
 print(2 ** 3) #2 to the power of 3
 
@@ -82,7 +91,7 @@ score = 0
 score += 1
 print(score) #1
 
-#F stings (Makes it possible to mix different data types e.g. integers and strings
+#F-stings (Makes it possible to mix different data types e.g. integers and strings
 score = 109
 height = 1.0 #float
 is_winning = True #boolean
