@@ -18,7 +18,7 @@ print(name2) #Robert
 name2 = "Angela"
 print(name2) #Angela
 
-#Get string length use len()
+#Get string length using the len() function
 print(len(input("What is your name?")))
 
 username = input("What is your name?")
