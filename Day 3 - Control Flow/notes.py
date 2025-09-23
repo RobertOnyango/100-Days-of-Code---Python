@@ -77,6 +77,7 @@ if height >= 120:
     else:
         bill = 12
         print(f"Adult tickets are {bill}.")
+        
     #Ask user if they'd like an additional photo
     wants_photo = input("Do you want a photo taken? Take y for Yes and n for No.")
     if wants_photo == "y":
