@@ -6,8 +6,8 @@ fruits = ["Apple", "Peach", "Pear"]
 for fruit in fruits:
     # Print each fruit
     print(fruit) # Apple, Peach, Pear
-    print(fruit + "pie") # Apple, Applepie, Peach, Peachpie, Pear, Pearpiey
-#Take note of indentation: Print is not in For Loop
+    print(fruit + "pie") # Apple, Applepie, Peach, Peachpie, Pear, Pearpie
+#Take note of indentation: Print is not in For Loop hence the whole list will be printed as a list
 print(fruits) # ['Apple', 'Peach', 'Pear']
 
 # Python program that generates a report for Student Exam scores
