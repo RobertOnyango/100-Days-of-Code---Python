@@ -1,6 +1,6 @@
 ###### DAY 4: RANDOMIZATION AND PYTHON LISTS ######
 #********** RANDOM MODULE **********#
-#
+# https://docs.python.org/3/library/random.html
 
 # Python module with each module performing only one task as part of a whole
 import random
@@ -77,4 +77,4 @@ vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
 dirty_dozen = [fruits, vegetables]
 print(dirty_dozen) #[['Strawberries', 'Rectarines', 'Apples', 'Grapes', 'Peaches', 'Cherries', 'Peaches'], ['Spinach', 'Kale', 'Tomatoes', 'Celery', 'Potatoes']]
 
-print(dirty_dozen[1][1]) #Kale: List in index 1, Item in index 1 of selected list
+print(dirty_dozen[1][1]) #Kale: List in index 1 position of nested list, Item in index 1 of that selected list
