@@ -34,7 +34,7 @@ while new_bid:
         # Checkout max() function
         for key in bids:
             if bids[key] > largest_bid:
-                # Store largest bid in variable
+                # Store largest bid in variable: Important to note how we are dealing with the key and it's respective value and how we are proceeding to assign each to variables
                 largest_bid = bids[key]
                 largest_bidder = key
 
