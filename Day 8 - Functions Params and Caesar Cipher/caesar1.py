@@ -11,8 +11,7 @@ def encrypt(original_text, shift_amount):
     # New shifted word
     cipher_text = ""
 
-    # TODO-2: Inside the 'encrypt()' function, shift each letter of the 'original_text' forwards in the alphabet
-    #  by the shift amount and print the encrypted text.
+    # TODO-2: Inside the 'encrypt()' function, shift each letter of the 'original_text' forwards in the alphabet by the shift amount and print the encrypted text.
     # Iterate through each letter of the input
     for letter in original_text:
         # Add one to it's index in the alphabet and shift it, to get the index of the new letter
