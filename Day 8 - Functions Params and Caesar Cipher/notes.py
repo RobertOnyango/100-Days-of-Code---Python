@@ -40,7 +40,9 @@ def calculate_love_score(name1, name2):
     love_number = 0
     true_number = 0
 
+    # Concatinate the two inputs and convert to lower
     combined_name = (name1 + name2).lower()
+    
     for char in combined_name:
         if char in love:
             love_number += 1
@@ -49,6 +51,7 @@ def calculate_love_score(name1, name2):
         if char in combined_name:
             true_number += 1
 
+    # Convert the int to char
     love_score =  str(true_number) + str(love_number)
     print(f"Love Score = {love_score}")
 
