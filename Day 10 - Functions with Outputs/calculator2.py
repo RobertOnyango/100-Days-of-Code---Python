@@ -40,7 +40,7 @@ def calculator():
         operation_symbol = input("Pick an operation: ")
         # Prompt user for second input
         num2 = float(input("What is the next number?: "))
-        # Call the operation functions based on the operation symbol input: Operation symbol = Keys for our dictionary
+        # Call the operation functions based on the operation symbol input: Operation symbol = Keys for our dictionary, which match the function names above which makes the calls simple
         answer = operations[operation_symbol](num1, num2)
         # Print out the results of the operation
         print(f"{num1} {operation_symbol} {num2} = {answer}")
