@@ -11,8 +11,8 @@ def increase_enemies():
     print(f"enemies inside function: {enemies}")
 
 
-increase_enemies()
-print(f"enemies outside function: {enemies}")
+increase_enemies() # Enemies inside function 2
+print(f"enemies outside function: {enemies}") # Enemies outside funtion 1
 
 # Global Scope: Variable defined outside functions and is available for use in all functions
 player_health = 10
@@ -23,7 +23,7 @@ def drink_portion():
     print(portion_strength)
     print(player_health)
 
-drink_portion()
+drink_portion() # 2  # 10
 
 #********** BLOCK SCOPE **********#
 # There is no Block scope in Python
