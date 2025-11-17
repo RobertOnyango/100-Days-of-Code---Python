@@ -106,7 +106,7 @@ mutate([1, 2, 3, 5, 8, 13])
 # 1. Define a breakpoint in the gutter of your editor i.e. the numbers on the left of your editor. Breakpoint puts a break on your code on that line
 # 2. Go to debug run mode to open the debug console and see the buttons.
 # 3. Step Over Button: Executes code line by line stopping at the next line. The highlighted line is the one executing next and the one above is the one just executed
-# 4. Step Into Button: Will execute line byu line but when it encounters a module (code in another file e.g. random.randint()), will go into the definition of the function and show you the function works
+# 4. Step Into Button: Will execute line by line but when it encounters a module (code in another file e.g. random.randint()), will go into the definition of the function and show you the function works
 # 5. Step Out Button: Step out of Step Into.
 # 6. Step Into My Code: Step into code in files written by us, in our local file directory and opens it in debug mode
 
