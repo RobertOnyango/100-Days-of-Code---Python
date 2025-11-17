@@ -1,4 +1,4 @@
-THE BLACKJACK CAPSTONE PROJECT
+## THE BLACKJACK CAPSTONE PROJECT
 https://www.247blackjack.com/
 BlackJack Objectives:
 Add up the cards in your hand to the largest number before 21 or equal to 21.
