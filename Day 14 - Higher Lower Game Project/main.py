@@ -1,4 +1,4 @@
-# A game that compares who has more followers on instagram
+# A game that compares who has more followers on instagram by asking a user to guess which two random options from a lsit of dictonaries has a high count in the followers key:value pair
 # Data is as a list of dictionaries with details of each option in each
 import random
 from game_data import data
