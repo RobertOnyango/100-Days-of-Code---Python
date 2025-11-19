@@ -14,9 +14,9 @@ You can have multiple objects from the same object type i.e. Multiple objects fr
 
 # CONSTRUCTING OBJECTS AND ACCESSING THEIR ATTRIBUTES AND METHODS
 '''
-Class is written in Pascal Case e.g. CarBluepring()
+Class is written in Pascal Case e.g. CarBlueprint()
 
-Create a car object from the Class:
+Create a car object from the class CarBlueprint i.e.
 car = CarBlueprint()
 '''
 
