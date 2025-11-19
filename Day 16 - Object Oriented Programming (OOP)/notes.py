@@ -20,11 +20,11 @@ Create a car object from the class CarBlueprint i.e.
 car = CarBlueprint()
 '''
 
-# Create an object from a class already created by someone else i.e. class turtle
+# Create an object from a class that is already created by someone else i.e. class turtle. Note here that turtle is the module (file created by another dev) and within this module there is a class named Turtle()
 
 # import turtle
 
-# # Construct the object called timmy from the class Turtle in the file turtle
+# # Construct the object called timmy from the class Turtle in the file turtle. Parenthesis() constructs/initializes the object created from the class.
 # timmy = turtle.Turtle()
 
 from turtle import Turtle, Screen
@@ -43,7 +43,7 @@ print(myscreen.canvheight)
 myscreen.exitonclick()
 
 # HOW TO ADD PYTHON PACKAGES AND USE PYPI(Python Package Index)
-# Python Packages: A file does achieves a specific goal, normally written with alot of files by a lot of people
+# Python Packages: A file that achieves a specific goal, normally written with a lot of files by a lot of people
 
 #prettytable = Package, PrettyTable = Class in package
 # from prettytable import PrettyTable
