@@ -16,7 +16,7 @@
 
 #********** CONSTRUCTOR **********#
 '''
-The blueprint that allows us to specify what should happen when our object is being constructed (set variables, counters, switches etc as the starting values to the objects we'll create) i.e. INITIALIZING AN OBJECT.
+The blueprint that allows us to specify what should happen when our objects (derived from said class) are being created (set variables, counters, switches etc as the starting values to the objects we'll create) i.e. INITIALIZING AN OBJECT.
 
 Use the special function __init__: Inside this function is where we initialize.
 ''' 
@@ -24,13 +24,13 @@ Use the special function __init__: Inside this function is where we initialize.
 class Car:
     '''
     Init function will be called everytime we create an object for the class.
-    Self = Actual object being initializes.
-    You can add as many parameters as you deem fit after the "self" argument. The added parameters will be received and used to set the objects attributes
+    Self = Each actual object being initialized.
+    You can add as many parameters as you deem fit after the "self" argument. The added parameters will be received and passed in when an object is being created from the class and subsequently used to set the objects' attributes.
     NOTE: When you add parameters the constructor (__init__ function), you're saying whenever a new object os being constructed from the class, it must provide the two arguments
     '''
     # Pass in seat argument
     def __init__(self, seats):
-        #Once seat is received, it is used to set the Attribute for that object
+        #Once the 'seat' parameter is received, it is used to set the Attribute for that object
         self.seats = seats
 
     # Initialize a method that changes the number of seats in the created object. 
@@ -62,11 +62,12 @@ class User:
         #Initialize attributes
         self.id = user_id
         self.username = username
-        # You can initialize your arguments with a default value i.e. attribute that holds the count of your followers
+        # You can initialize your arguments with a default value e.g. attribute that holds the count of your followers
         self.followers = 0
         # Attribute that holds the number of users you're following
         self.following = 0
     
+    # A method needs to have the 'self' parameter as its first parameter so that when it is called, it knows the method that called it.
     # Method that allows us to amend the number of followers in a created object i.e. Keeps track of the follow activity of our users
     def follow(self, user):
         # The user you're following, his/her followers count goes up by one
