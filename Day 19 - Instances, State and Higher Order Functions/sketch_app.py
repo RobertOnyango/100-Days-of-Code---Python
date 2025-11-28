@@ -27,6 +27,7 @@ def move_counter_clockwise():
 screen.onkey(key="a", fun=move_counter_clockwise)
 
 # Move clockwise (Turn Right)
+# NOTE the difference between the two functions counter_clockwise and clockwise, two different ways of achieving the same goal
 def move_clockwise():
     tim.right(10)
 screen.onkey(key="d", fun=move_clockwise)
