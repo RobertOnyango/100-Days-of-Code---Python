@@ -32,6 +32,7 @@ class Fish(Animal):
         print("Moving in water")
 
 nemo = Fish()
+print(nemo.num_eyes) # 2
 nemo.breathe() # Inhale, exhale. Doing this under water.
 
 #******* HOW TO SLICE LISTS & TUPLES **********#
