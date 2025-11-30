@@ -19,16 +19,6 @@ This repository contains all my daily progress, exercises, notes, and projects a
 - Document real growth publicly
 
 
-🗂️ Repository Structure
-📦 100-days-of-code-python
- ┣ 📁 Day01
- ┣ 📁 Day02
- ┣ 📁 Day03
- ┣ 📁 ...
- ┣ 📁 Day 100
- ┗ 📄 README.md
-
-
 ### Each folder contains:
 
 - The code for the day
@@ -43,7 +33,7 @@ This repository contains all my daily progress, exercises, notes, and projects a
 
 - Status: Actively updating daily
 
--= Focus: Python basics → functions → loops → files → error handling → OOP → APIs → automation
+- Focus: Python basics → functions → loops → files → error handling → OOP → APIs → automation
 
 - I push my work consistently to this repository to keep myself accountable.
 
@@ -91,9 +81,9 @@ This repository contains all my daily progress, exercises, notes, and projects a
 
 If you'd like to follow my journey or collaborate:
 
-LinkedIn: [Robert Onyango](https://www.linkedin.com/in/robert-onyango-9446881b0)
+- LinkedIn: [Robert Onyango](https://www.linkedin.com/in/robert-onyango-9446881b0)
 
-GitHub: [Robert Onyango](https://github.com/RobertOnyango/)
+- GitHub: [Robert Onyango](https://github.com/RobertOnyango/)
 
 ### 📌 How to Use This Repo
 
