@@ -60,7 +60,7 @@ print(f" The mean is: {data["temp"].mean()}")
 # What is the maximum temperature value
 print(f"The maximum temperature value is: {data["temp"].max()}")
 
-# Get the data in columns
+# Get the all the condition data from the condition column
 print(data["condition"])
 print(data.condition)
 
