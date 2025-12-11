@@ -61,8 +61,8 @@ print(f" The mean is: {data["temp"].mean()}")
 print(f"The maximum temperature value is: {data["temp"].max()}")
 
 # Get the all the condition data from the condition column
-print(data["condition"])
-print(data.condition)
+print(data["condition"]) # Treaing the Dataframe like a 'dictionary' where we are pulling the data using a key i.e. data["condtion"]
+print(data.condition) # Treating the DataFrame like an 'object' from a class where we pulling data as an attribute i.e. data.condition
 
 # Get the data in Row
 print(data[data.day == "Monday"]) # 0  Monday    12     Sunny
