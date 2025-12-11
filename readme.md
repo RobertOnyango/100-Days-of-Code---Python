@@ -1,6 +1,6 @@
 ## 100 Days of Code – Python 🐍
 
-A personal challenge to practice Python every day for 100 days — building strong foundations for cybersecurity, cloud engineering, automation, and scripting.
+A personal challenge to practice Python every day for 100 days, building strong foundations for cybersecurity, cloud engineering, automation, and scripting.
 
 This repository contains all my daily progress, exercises, notes, and projects as I advance through the challenge.
 
@@ -29,7 +29,7 @@ This repository contains all my daily progress, exercises, notes, and projects a
 
 ### 🔥 Current Progress
 
-- Day: 25 / 100
+- Day: 26 / 100
 
 - Status: Actively updating daily
 

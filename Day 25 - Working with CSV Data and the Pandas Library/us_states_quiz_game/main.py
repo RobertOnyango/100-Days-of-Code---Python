@@ -58,11 +58,14 @@ while len(guessed_states) < 50:
         # Compare the guessed_states array to the state_names array via looping through the state_names then save the items not in guessed_states array into a new array
         # NOTE: This should only be done after the game has ended i.e. After EXIT.
         # Empty array to hold the missed states
+        '''
         missed_states = []
         for state in state_names:
             if state not in guessed_states:
                 # Add the missing state to the array
                 missed_states.append(state)
+        '''
+        missed_states = [state for state in state_names if state not in guessed_states]
 
         # Create a dataframe
         new_data = pandas.DataFrame(missed_states)
