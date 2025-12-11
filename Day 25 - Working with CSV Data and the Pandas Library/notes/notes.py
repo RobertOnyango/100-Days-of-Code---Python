@@ -65,19 +65,23 @@ print(data["condition"]) # Treaing the Dataframe like a 'dictionary' where we ar
 print(data.condition) # Treating the DataFrame like an 'object' from a class where we pulling data as an attribute i.e. data.condition
 
 # Get the data in Row
+# SYNTAX: Get a hold of the data table i.e. data[], then inside the data table, get the day column i.e. data.day
 print(data[data.day == "Monday"]) # 0  Monday    12     Sunny
 
 # Which row of data had the maximum day of the week?
 print(data[data.temp == data.temp.max()])
 
-# Whaty if we want to extract the weather condition of the day Monday?
+# NOTE: If we take our day table and we only put the name of the columns inside the square brackets i.e. data[data.condition], we would get the entire column
+# NOTE: If we put a condition inside the square brackets such that the column name matches a certain condtion i.e. data[data.condition == "Sunny"], we get the specific rows where this condition matches
+
+# What if we want to extract the weather condition of the day Monday?
 # Extract the entire row of Monday
 monday = data[data.day == "Monday"]
 # From the row extract the condition
 print(monday.condition)
 
 # Convert Monday's temperature to  Farenheit
-# Extract Monday's temperature HINT: USe [] to get a single value from the series(list)
+# Extract Monday's temperature HINT: Use [] to get a single value from the series(list)
 monday_temp = monday.temp[0]
 print(monday_temp * 9/5 + 32)
 
