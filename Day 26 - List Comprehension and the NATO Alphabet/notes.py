@@ -83,12 +83,14 @@ for key in student_dict:
 import pandas
 
 student_data_frame = pandas.DataFrame(student_dict)
-print(student_data_frame)
+print(student_data_frame) # Prints the data frame, two headings student and score
 
+# Loop through the whole dataframe, using the index as the key
 for key in student_data_frame.items():
+    # Get each score  (Similar to data.score, where we want all the values under the score column)
     print(student_data_frame.score)
 
-# Loop through each of the r ows of the data_frame instead of the columns
+# Loop through each of the rows of the data_frame using iterrows() instead of the columns
 for (index, row) in student_data_frame.iterrows(): 
     # print(index)
     # print(row)
