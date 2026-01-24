@@ -29,7 +29,7 @@ This repository contains all my daily progress, exercises, notes, and projects a
 
 ### 🔥 Current Progress
 
-- Day: 28 / 100
+- Day: 30 / 100
 
 - Status: Actively updating daily
 
