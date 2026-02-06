@@ -1,0 +1,6 @@
+MY_EMAIL = "thenight0nyx@gmail.com"
+MY_PASSWORD = "unmv sjeh tqjk cxpt"
+
+smtplib.SMTP("smtp.gmail.com")
+
+RECEIVER EMAIL = "night0nyx@outlook.com"
