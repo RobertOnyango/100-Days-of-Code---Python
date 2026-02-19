@@ -9,7 +9,7 @@ from twilio.rest import Client
 # Key authenticates your account to the OpenWeatherAPI provider
 openweather_api_key = "----"
 twilio_account_sid = "----"
-twilio_auth_token = "----"
+twilio_auth = "----"
 
 # Python program that fetches the 5 day weather forecast of my location from the API url api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}
 # 
@@ -51,12 +51,12 @@ for hour_data in weather_data["list"]:
 if will_rain:
     print("Bring an umbrella")
     # Create the twilio client
-    client = Client(twilio_account_sid, twilio_auth_token)
+    client = Client(twilio_account_sid, twilio_auth)
 
     # Construct the message 
     message = client.api.account.messages.create(
-        to="----------------------------------",
-        from_="----------------------------------",
+        to="----",
+        from_="-----",
         body="It's going to rain today. Remember to carry an umbrella")
     
     print(message.sid)
