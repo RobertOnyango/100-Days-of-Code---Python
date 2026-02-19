@@ -4,3 +4,8 @@ MY_PASSWORD = "unmv sjeh tqjk cxpt"
 smtplib.SMTP("smtp.gmail.com")
 
 RECEIVER EMAIL = "night0nyx@outlook.com"
+
+OPEN_WEATHER_APT = "2ed4a0df1ba5ffc7bddfb676ff525169"
+
+TWILIO SID = "ACbef502f3ef473a4e56850c7ec43c6e45"
+TWILIO AUTH TOKEN = "dc53271b0055e7254dd659a4455cb1a7"
